@@ -1,0 +1,52 @@
+/* TagFilter.css */
+
+.tag-filter-container {
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .tag-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tag-item {
+    display: inline-block;
+    margin: 8px;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  
+  .tag-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tag-label:hover {
+    background-color: #ffca28;
+    color: #333;
+  }
+  
+  .tag-item.selected {
+    transform: scale(1.05);
+    opacity: 0.8;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  
